@@ -5,8 +5,26 @@
 
 ### COMENTÁRIOS DA EQUIPE
 
-  O código da classe SetWithQueue desenvolvido atende ao desafio proposto, usando a classe FilaArray como estrutura para armazenar elementos de forma ordenada e garantir que não haja duplicatas. A função add(element) assegura a ausência de duplicidade ao verificar se o elemento já está presente antes de enfileirá-lo, usando o método contains(element), que faz a busca linear pelo elemento na fila. A operação remove(element) retira o elemento especificado, criando uma fila temporária para manter a ordem dos elementos restantes, mantendo a integridade da estrutura. A operação contains(element) permite verificar a existência de um elemento no conjunto, enquanto size() retorna o número total de elementos e list() devolve todos os elementos armazenados em ordem, sem modificá-los. Essas operações garantem que o conjunto funcione conforme especificado, mantendo o comportamento e as características de um conjunto, mas com as características de uso de uma fila como estrutura de armazenamento.
-    O código apresenta uma implementação funcional, porém enfrenta alguns problemas de eficiência e limitações. A remoção de elementos, que preserva a ordem original, requer a criação de uma fila temporária, resultando em uma complexidade 𝑂(𝑛) para a operação de dequeue, o que pode ser ineficiente para grandes conjuntos. Além disso, a verificação de duplicidade através do método contains também é linear, 𝑂(𝑛), o que se contrapõe com a eficiência 𝑂(1) esperada em estruturas de dados tradicionais de conjunto, como o set em Python. Embora o código inclua métodos essenciais como add, remove, contains, size e list, ele poderia ser melhorado, por exemplo, com um método para facilitar a iteração sobre os elementos. Esses pontos sugerem que, embora a implementação atenda aos requisitos básicos e passe nos testes fornecidos, ela pode não ser a mais eficiente ou adequada para cenários que exijam alta performance.
+  O código da classe SetWithQueue desenvolvido atende ao desafio proposto, usando a classe FilaArray
+  como estrutura para armazenar elementos de forma ordenada e garantir que não haja duplicatas. A função
+  add(element) assegura a ausência de duplicidade ao verificar se o elemento já está presente antes de 
+  enfileirá-lo, usando o método contains(element), que faz a busca linear pelo elemento na fila. A operação
+  remove(element) retira o elemento especificado, criando uma fila temporária para manter a ordem dos 
+  elementos restantes, mantendo a integridade da estrutura. A operação contains(element) permite verificar
+  a existência de um elemento no conjunto, enquanto size() retorna o número total de elementos e list()
+  devolve todos os elementos armazenados em ordem, sem modificá-los. Essas operações garantem que o conjunto
+  funcione conforme especificado, mantendo o comportamento e as características de um conjunto, mas com as
+  características de uso de uma fila como estrutura de armazenamento.
+  
+  O código apresenta uma implementação funcional, porém enfrenta alguns problemas de eficiência e limitações.
+  A remoção de elementos, que preserva a ordem original, requer a criação de uma fila temporária, resultando 
+  em uma complexidade 𝑂(𝑛) para a operação de dequeue, o que pode ser ineficiente para grandes conjuntos. 
+  Além disso, a verificação de duplicidade através do método contains também é linear, 𝑂(𝑛), o que se contrapõe
+  com a eficiência 𝑂(1) esperada em estruturas de dados tradicionais de conjunto, como o set em Python. Embora o
+  código inclua métodos essenciais como add, remove, contains, size e list, ele poderia ser melhorado, por exemplo,
+  com um método para facilitar a iteração sobre os elementos. Esses pontos sugerem que, embora a implementação
+  atenda aos requisitos básicos e passe nos testes fornecidos, ela pode não ser a mais eficiente ou adequada para
+  cenários que exijam alta performance.
 
 ### ATIVIDADE 01: IMPLEMENTAR SetWihQueue
 
@@ -14,7 +32,9 @@
 
 ### ATIVIDADE 02: DISCUSSÃO SOBRE DESEMPENHO
 
-  Para analisar a complexidade das funções na classe SetWithQueue, deve-se considerar a implementação de cada método e como ele interage com a estrutura FilaArray. Sendo FilaArray uma fila que utiliza uma lista para armazenar os elementos, a seguir encontra-se a complexidade de cada método desenvolvido na classe SetWithQueue.
+  Para analisar a complexidade das funções na classe SetWithQueue, deve-se considerar a implementação de cada método e
+  como ele interage com a estrutura FilaArray. Sendo FilaArray uma fila que utiliza uma lista para armazenar os elementos,
+  a seguir encontra-se a complexidade de cada método desenvolvido na classe SetWithQueue.
 
 ## Complexidade de cada método:
 
@@ -32,8 +52,8 @@
 
 ### CONTEÚDO CONSULTADO PARA A REALIZAÇÃO DO PROJETO
 
-•	[https://www.ufsm.br/pet/sistemas-de-informacao/2020/04/01/entendendo-listas-pilhas-e-filas]
-•	[http://sites.poli.usp.br/p/fabio.cozman/Didatico/Comp/Material/estruturas.pdf]
-•	[https://docente.ifsc.edu.br/vilson.junior/ed/04_Listas_Filas_Pilhas.pdf]
-•	[https://pessoal.dainf.ct.utfpr.edu.br/maurofonseca/lib/exe/fetch.php?media=cursos:if63c:if63ced_03_pilhasfilas.pdf]
+[https://www.ufsm.br/pet/sistemas-de-informacao/2020/04/01/entendendo-listas-pilhas-e-filas]
+[http://sites.poli.usp.br/p/fabio.cozman/Didatico/Comp/Material/estruturas.pdf]
+[https://docente.ifsc.edu.br/vilson.junior/ed/04_Listas_Filas_Pilhas.pdf]
+[https://pessoal.dainf.ct.utfpr.edu.br/maurofonseca/lib/exe/fetch.php?media=cursos:if63c:if63ced_03_pilhasfilas.pdf]
 
