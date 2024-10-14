@@ -55,7 +55,7 @@ Para rodar os testes, utilize um ambiente Python. Os testes validam se as opera�
 ### Considerações Finais:
 Este mini-projeto oferece a oportunidade de aprofundar o conhecimento sobre estrutura de dados e manipulação de filas, além de testar habilidades em codificação e análise de desempenho.
 
-**Equipe:**  
+### Equipe:
 
 <table>
   <tr>
