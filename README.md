@@ -1,4 +1,4 @@
-# INSTITUTO FEDERAL DE ALAGOAS - IFAL / CAMPUS MACEIÓ
+
 ## Curso Bacharelado em Sistemas de Informação 
 ### Disciplina de Estruturas de Dados 
 **Professor:** MSc. Ricardo Nunes  
