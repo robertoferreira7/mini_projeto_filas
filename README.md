@@ -55,6 +55,25 @@ Para rodar os testes, utilize um ambiente Python. Os testes validam se as opera�
 ### Considerações Finais:
 Este mini-projeto oferece a oportunidade de aprofundar o conhecimento sobre estrutura de dados e manipulação de filas, além de testar habilidades em codificação e análise de desempenho.
 
-**Equipe:**  
-- Roberto Ferreira de Assis Filho (@robertoferreira7)
-- Rodrigo de Oliveira Farias (@rodrigo-farias10)
+> Agradecemos às seguintes pessoas que contribuíram para este projeto:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/robertoferreira7">
+        <img src="https://github.com/robertoferreira7.png" width="100px;" alt="Foto de perfil do Roberto Ferreira de Assis Filho no GitHub"/><br>
+        <sub>
+          <b>Roberto Ferreira de Assis Filho</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/rodrigo-farias10">
+        <img src="https://github.com/rodrigo-farias10.png" width="100px;" alt="Foto de perfil do Rodrigo de Oliveira Farias no GitHub"/><br>
+        <sub>
+          <b>Rodrigo de Oliveira Farias</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
